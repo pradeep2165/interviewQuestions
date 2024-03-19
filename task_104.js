@@ -1,4 +1,5 @@
 const data = new Array(100);
-for (let i = 0; i < data.length; i++) {
+let len = data.length;
+for (let i = 0; i < len; i++) {
   //some code
 }

@@ -7,4 +7,4 @@ const arr = [1, 2, 3, 4, 5];
 arr.filter((n) => n % 2 == 0).map((n) => n * n);
 
 // sol2
-arr.filter((n) => (n % 2 == 0 ? n * n : []));
+arr.flatMap((n) => (n % 2 == 0 ? n * n : []));

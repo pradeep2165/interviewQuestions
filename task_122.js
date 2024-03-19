@@ -9,3 +9,10 @@
 //         }
 //     }
 // }
+
+let str = "a.b.c.d.e";
+
+let newStr = str.split(".").reduceRight(function (acc, next) {
+  return { [next]: acc };
+});
+console.log(JSON.stringify(newStr));

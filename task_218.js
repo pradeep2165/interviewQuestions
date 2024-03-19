@@ -9,6 +9,7 @@ arr.sort(function (a, b) {
   if (a.age < b.age) {
     return -1;
   }
+
   if (a.age > b.age) {
     return 1;
   }

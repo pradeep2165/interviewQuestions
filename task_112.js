@@ -1,1 +1,3 @@
 console.log(8888888888888888);
+
+//Number.MAX_SAFE_INTEGER

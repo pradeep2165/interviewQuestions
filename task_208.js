@@ -11,4 +11,4 @@ a();
 b();
 
 console.log(var2);
-console.log(var1);
+// console.log(var1);

@@ -1,6 +1,8 @@
 //how to make passing argument mandatory?
-
-function show(name) {
+function check() {
+  throw new Error("name is required");
+}
+function show(name = check()) {
   //Name is required
   console.log(name);
 }
